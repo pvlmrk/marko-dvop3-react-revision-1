@@ -1,0 +1,35 @@
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 20px;
+}
+
+body {
+  background-color: beige;
+  padding: 20px;
+}
+
+.card {
+  background-color: #121212;
+  width: 20%;
+  color: white;
+  border-radius: 25px;
+  padding: 20px;
+  min-width: 250px;
+}
+
+.card > * {
+  font-family: sans-serif;
+}
+
+.card a {
+  text-decoration: none;
+  color: rgb(144, 144, 185);
+}
+
+@media (max-width: 968px) {
+  .app {
+    justify-content: center;
+  }
+}
